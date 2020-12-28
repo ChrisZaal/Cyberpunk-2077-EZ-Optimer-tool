@@ -20,7 +20,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label7 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
@@ -31,10 +30,10 @@
             // 
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(563, 29);
+            this.button1.Location = new System.Drawing.Point(574, 28);
             this.button1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(144, 40);
+            this.button1.Size = new System.Drawing.Size(134, 40);
             this.button1.TabIndex = 0;
             this.button1.Text = "Max Boost";
             this.button1.UseVisualStyleBackColor = true;
@@ -44,10 +43,10 @@
             // 
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(563, 211);
+            this.button2.Location = new System.Drawing.Point(574, 210);
             this.button2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(144, 40);
+            this.button2.Size = new System.Drawing.Size(134, 40);
             this.button2.TabIndex = 1;
             this.button2.Text = "DISABLE ASYNC COMPUTE";
             this.button2.UseVisualStyleBackColor = true;
@@ -57,10 +56,10 @@
             // 
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(563, 152);
+            this.button3.Location = new System.Drawing.Point(574, 151);
             this.button3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(144, 40);
+            this.button3.Size = new System.Drawing.Size(134, 40);
             this.button3.TabIndex = 2;
             this.button3.Text = "DEFAULT";
             this.button3.UseVisualStyleBackColor = true;
@@ -114,16 +113,6 @@
             this.label4.Text = "Tool cleaned up by Deepdelver";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.label5.Location = new System.Drawing.Point(29, 283);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(382, 13);
-            this.label5.TabIndex = 20;
-            this.label5.Text = "©2020-2021 Oleg Kasumov aka CodeZ1LLa/EZ-PC Tech. All Rights Reserved";
-            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label7);
@@ -155,9 +144,9 @@
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(563, 89);
+            this.button5.Location = new System.Drawing.Point(574, 88);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(144, 40);
+            this.button5.Size = new System.Drawing.Size(134, 40);
             this.button5.TabIndex = 6;
             this.button5.Text = "BALANCED";
             this.button5.UseVisualStyleBackColor = true;
@@ -169,7 +158,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(749, 309);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -201,8 +189,6 @@
 		private global::System.Windows.Forms.Label label3;
 
 		private global::System.Windows.Forms.Label label4;
-
-		private global::System.Windows.Forms.Label label5;
 
 		private global::System.Windows.Forms.GroupBox groupBox1;
 
