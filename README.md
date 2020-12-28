@@ -8,4 +8,4 @@ Note: This tool changes certain settings for the game in a way the developer did
 
 I am in no way responsible for any harm or malfunction to your game or hardware. I honestly hope your game runs better.
 
-Happy gaming!
+Happy gaming! And kuddos to the builder of this app, wich releases it with some extra code wich my virus scanner didn't like.
