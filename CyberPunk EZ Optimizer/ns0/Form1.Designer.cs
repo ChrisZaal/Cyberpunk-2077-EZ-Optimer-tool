@@ -166,7 +166,7 @@
             this.Name = "Form1";
             this.Opacity = 0.9D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "EZ Optimizer V1.0 by CodeZ1LLa(c) for CyberPunk 2077";
+            this.Text = "EZ Optimizer V1.0 for CyberPunk 2077 -  I honestly hope your game runs better.";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
